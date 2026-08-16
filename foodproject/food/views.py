@@ -5,7 +5,7 @@ from rest_framework.permissions import IsAuthenticated
 from .models import Food
 from .serializers import FoodSerializer
 
-
+print("hello")
 class FoodViewSet(viewsets.ModelViewSet):
 
     queryset = Food.objects.all()
